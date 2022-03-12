@@ -20,9 +20,9 @@
 // Run the main script...
 try {
     /////////////////////////
-    if (File('~/.Export Layers to Files Last Location.log').exists && File('~/.Export Layers to Files Last Location.log').length > 0) {
+    if (File('~/Export Layers to Files Last Location.log').exists && File('~/Export Layers to Files Last Location.log').length > 0) {
         // Read the last save path preference file in the user home folder
-        var prefFileRead = File('~/.Export Layers to Files Last Location.log'); // . = invisible file
+        var prefFileRead = File('~/Export Layers to Files Last Location.log');
         // Open the pref file: r = read mode | w = write mode | a = append | e = edit
         prefFileRead.open('r');
         // Read the value for the save path
