@@ -26,7 +26,7 @@ try {
     // Hide the pref file?
     //prefFile.hidden = true;
     // alert('Save location set to:' + '\r' + prefFileValue.fsName);
-    alert('Now run the "Export Layers To Files - Last Location 2 of 2" script again without the shift key...');
+    alert('Now run the "Export Layers To Files - Last Location 2 of 2" script...');
 } catch (e) {
     alert("There was an error writing the .log file!");
 }
