@@ -15,7 +15,7 @@ try {
     // Set the save folder path
     var prefFileValue = Folder.selectDialog('Select an output directory...'); // destination folder
     // Write the last save path preference file in the user home folder
-    var prefFile = new File('~/.Export Layers to Files Last Location.log'); // . = invisible file
+    var prefFile = new File('~/Export Layers to Files Last Location.log');
     // Write the directory path to the pref file
     // r = read mode | w = write mode | a = append | e = edit
     prefFile.open('w');
@@ -23,6 +23,8 @@ try {
     prefFile.lineFeed = prefFileLF;
     prefFile.write(prefFileValue.fsName);
     prefFile.close();
+    // Hide the pref file?
+    //prefFile.hidden = true;
     // alert('Save location set to:' + '\r' + prefFileValue.fsName);
     alert('Now run the "Export Layers To Files - Last Location 2 of 2" script again without the shift key...');
 } catch (e) {
