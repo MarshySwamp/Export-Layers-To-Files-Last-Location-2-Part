@@ -61,7 +61,7 @@ $.localize = true;
 
 // UI strings to be localized
 
-var strTitle = localize("$$$/JavaScripts/ExportLayersToFiles/Title=Export Layers To Files");
+var strTitle = localize("$$$/JavaScripts/ExportLayersToFiles/Title=Export Layers To Files - Last Location");
 
 var strButtonRun = localize("$$$/JavaScripts/ExportLayersToFiles/Run=Run");
 
