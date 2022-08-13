@@ -1,3 +1,7 @@
+/////////////////////////
+// Additions by Stephen Marsh, 7th March 2022
+/////////////////////////
+
 // Copyright 2007.  Adobe Systems, Incorporated.  All rights reserved.
 
 // This script will export each layer in the document to a separate file.
