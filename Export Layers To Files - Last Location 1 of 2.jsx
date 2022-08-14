@@ -1,5 +1,7 @@
+/////////////////////////
 // Export Layers To Files - Last Location 1 of 2.jsx
 // Script 1 of 2
+/////////////////////////
 
 #target photoshop
 
