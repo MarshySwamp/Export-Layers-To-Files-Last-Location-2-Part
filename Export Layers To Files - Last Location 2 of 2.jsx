@@ -1,5 +1,7 @@
 /////////////////////////
-// Additions by Stephen Marsh, 7th March 2022
+// Export Layers To Files - Last Location 2 of 2.jsx
+// Script 2 of 2
+// Additions by Stephen Marsh, 7th March 2022, v2 updated 14th August 2022
 /////////////////////////
 
 // Copyright 2007.  Adobe Systems, Incorporated.  All rights reserved.
@@ -18,7 +20,9 @@
 #target photoshop
 
 /////////////////////////
-// Additions by Stephen Marsh, 12th March 2022
+// Export Layers To Files - Last Location 2 of 2.jsx
+// Script 2 of 2
+// Additions by Stephen Marsh, 7th March 2022, v2 updated 14th August 2022
 /////////////////////////
 
 // Run the main script...
@@ -1387,9 +1391,12 @@ function initExportInfo(exportInfo) {
 
 
         /////////////////////////
-        // Additions by Stephen Marsh, 7th March 2022
+        // Export Layers To Files - Last Location 2 of 2.jsx
+        // Script 2 of 2
+        // Additions by Stephen Marsh, 7th March 2022, v2 updated 14th August 2022
         /////////////////////////
-        exportInfo.destination = Folder(prefFileValue).fsName; // destination folder
+        
+        exportInfo.destination = Folder(prefFileValue.fsName); // destination folder
 
         var tmp = app.activeDocument.fullName.name;
 
@@ -1426,8 +1433,11 @@ function initFileNameDestination(exportInfo) {
     try {
 
         /////////////////////////
-        // Additions by Stephen Marsh, 7th March 2022
+        // Export Layers To Files - Last Location 2 of 2.jsx
+        // Script 2 of 2
+        // Additions by Stephen Marsh, 7th March 2022, v2 updated 14th August 2022
         /////////////////////////
+
         exportInfo.destination = Folder(prefFileValue).fsName; // destination folder
 
         var tmp = app.activeDocument.fullName.name;
